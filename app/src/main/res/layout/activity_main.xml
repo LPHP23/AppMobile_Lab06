@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_primary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/feature_bubble"
+            android:gravity="center"
+            android:text="📄"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:text="Lab6 Document Scanner"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="14dp"
+        android:layout_weight="1"
+        android:background="@drawable/image_panel"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="Document preview"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/emptyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="Chọn ảnh tài liệu có bóng để bắt đầu"
+            android:textColor="@color/ink"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="false"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="12dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLoad"
+                style="@style/FeatureButton"
+                android:text="🖼 Chọn ảnh" />
+
+            <Button
+                android:id="@+id/btnShadow"
+                style="@style/FeatureButton"
+                android:text="✨ Xóa bóng" />
+
+            <Button
+                android:id="@+id/btnGray"
+                style="@style/FeatureButton"
+                android:text="🌗 Xám" />
+
+            <Button
+                android:id="@+id/btnBw"
+                style="@style/FeatureButton"
+                android:text="⚫ Scan trắng đen" />
+
+            <Button
+                android:id="@+id/btnReset"
+                style="@style/FeatureButton"
+                android:text="↩ Gốc" />
+
+            <Button
+                android:id="@+id/btnSave"
+                style="@style/FeatureButton"
+                android:text="💾 Lưu" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.lab6.documentscanner.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/lythanhthu/Downloads/DocumentScannerLab6/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,481",
+                        "endLines": "8,21",
+                        "endColumns": "12,12",
+                        "endOffsets": "475,1135"
+                    },
+                    "to": {
+                        "startLines": "9,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "372,797",
+                        "endLines": "15,27",
+                        "endColumns": "12,12",
+                        "endOffsets": "792,1451"
+                    }
+                },
+                {
+                    "source": "/Users/lythanhthu/Downloads/DocumentScannerLab6/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "313",
+                        "endColumns": "58",
+                        "endOffsets": "367"
+                    }
+                },
+                {
+                    "source": "/Users/lythanhthu/Downloads/DocumentScannerLab6/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,3,2,6,7,5",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "147,102,55,233,271,193",
+                        "endColumns": "45,44,46,37,41,39",
+                        "endOffsets": "188,142,97,266,308,228"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,146,193,231,273",
+                        "endColumns": "45,44,46,37,41,39",
+                        "endOffsets": "96,141,188,226,268,308"
+                    }
+                }
+            ]
+        }
+    ]
+}

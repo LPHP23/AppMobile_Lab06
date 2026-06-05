@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.lab6.documentscanner.app-debug-4:/drawable_feature_bubble.xml.flat",
+        "source": "com.lab6.documentscanner.app-main-6:/drawable/feature_bubble.xml"
+    },
+    {
+        "merged": "com.lab6.documentscanner.app-debug-4:/drawable_bubble_button.xml.flat",
+        "source": "com.lab6.documentscanner.app-main-6:/drawable/bubble_button.xml"
+    },
+    {
+        "merged": "com.lab6.documentscanner.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.lab6.documentscanner.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.lab6.documentscanner.app-debug-4:/drawable_image_panel.xml.flat",
+        "source": "com.lab6.documentscanner.app-main-6:/drawable/image_panel.xml"
+    }
+]

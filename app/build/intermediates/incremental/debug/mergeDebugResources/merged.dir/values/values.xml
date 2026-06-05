@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_accent">#666BFF</color>
+    <color name="blue_light">#B3D1FF</color>
+    <color name="blue_primary">#0050D1</color>
+    <color name="ink">#162033</color>
+    <color name="surface">#F4F8FF</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Lab6 Document Scanner</string>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/blue_primary</item>
+        <item name="android:navigationBarColor">@color/blue_primary</item>
+        <item name="android:colorAccent">@color/blue_accent</item>
+    </style>
+    <style name="FeatureButton" parent="@android:style/Widget.Material.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:background">@drawable/bubble_button</item>
+        <item name="android:minWidth">108dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

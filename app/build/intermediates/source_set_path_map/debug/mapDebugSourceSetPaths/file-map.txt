@@ -1,0 +1,7 @@
+com.lab6.documentscanner.app-pngs-0 /Users/lythanhthu/Downloads/DocumentScannerLab6/app/build/generated/res/pngs/debug
+com.lab6.documentscanner.app-resValues-1 /Users/lythanhthu/Downloads/DocumentScannerLab6/app/build/generated/res/resValues/debug
+com.lab6.documentscanner.app-packageDebugResources-2 /Users/lythanhthu/Downloads/DocumentScannerLab6/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.lab6.documentscanner.app-packageDebugResources-3 /Users/lythanhthu/Downloads/DocumentScannerLab6/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.lab6.documentscanner.app-debug-4 /Users/lythanhthu/Downloads/DocumentScannerLab6/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.lab6.documentscanner.app-debug-5 /Users/lythanhthu/Downloads/DocumentScannerLab6/app/src/debug/res
+com.lab6.documentscanner.app-main-6 /Users/lythanhthu/Downloads/DocumentScannerLab6/app/src/main/res

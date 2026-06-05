@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_primary">#0050D1</color>
+    <color name="blue_light">#B3D1FF</color>
+    <color name="blue_accent">#666BFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ink">#162033</color>
+    <color name="surface">#F4F8FF</color>
+</resources>

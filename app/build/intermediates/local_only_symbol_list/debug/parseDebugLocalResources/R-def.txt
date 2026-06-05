@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color blue_accent
+color blue_light
+color blue_primary
+color ink
+color surface
+color white
+drawable bubble_button
+drawable feature_bubble
+drawable image_panel
+id btnBw
+id btnGray
+id btnLoad
+id btnReset
+id btnSave
+id btnShadow
+id emptyText
+id imagePreview
+layout activity_main
+string app_name
+style AppTheme
+style FeatureButton

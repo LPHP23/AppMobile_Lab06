@@ -1,0 +1,7 @@
+#Fri Jun 05 21:01:37 ICT 2026
+base.0=/Users/lythanhthu/Downloads/DocumentScannerLab6/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/Users/lythanhthu/Downloads/DocumentScannerLab6/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
+path.0=0/classes.dex
+path.1=4/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
